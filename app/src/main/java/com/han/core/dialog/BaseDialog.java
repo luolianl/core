@@ -23,6 +23,8 @@ public class BaseDialog extends Dialog {
     protected BaseDialog(@NonNull Context context, boolean cancelable, @Nullable OnCancelListener cancelListener) {
         super(context, cancelable, cancelListener);
         initConfig();
+
+
     }
 
     private void initConfig() {
